@@ -90,6 +90,14 @@
 .btnmenu:hover{
     background-image: linear-gradient(90deg, rgba(245,255,245,1) 17%, rgba(141,223,249,1) 32%, rgba(218,218,218,0.9948354341736695) 58%, rgba(255,253,253,1) 100%);
 }
+
+.active{
+    display: block;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(245,255,245,1) 17%, rgba(141,223,249,1) 32%, rgba(218,218,218,0.9948354341736695) 58%, rgba(255,253,253,1) 100%);
+    
+}
+
 /*ICONO LINKEDIN*/
 
 .linkedin span{

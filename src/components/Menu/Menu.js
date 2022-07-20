@@ -15,16 +15,12 @@ export default function Menu() {
 
   <div className='menu'>
     
-  <button className='btnmenu inicio'><Link to="/" ><FontAwesomeIcon icon={faHouseChimney} pull='left' className='iconinicio'/><span>Home</span></Link></button>
- <button className='btnmenu skills'><Link to="/skills"><FontAwesomeIcon icon={faBarsProgress} pull='left' className='iconskills'/><span>Skills</span></Link></button>
+  <button className='btnmenu inicio'><Link to="/" activeClassName="active"><FontAwesomeIcon icon={faHouseChimney} pull='left' className='iconinicio'/><span>Home</span></Link></button>
+ <button className='btnmenu skills'><Link to="/skills" activeClassName="active"><FontAwesomeIcon icon={faBarsProgress} pull='left' className='iconskills'/><span>Skills</span></Link></button>
   
-      <button className='btnmenu git'><a href="https://github.com/stevenfeliz"><FontAwesomeIcon icon={faGithub} pull='left' className='icongithub'/><span>GitHub</span></a></button>
-
-
-  
-
-       <button className='btnmenu projects'><Link to="/projects/"><FontAwesomeIcon icon={faToolbox} pull='left' className='iconprojects'/><span>Projects</span></Link></button>
-      <button className='btnmenu linkedin'><a href="https://www.linkedin.com/in/stevenfeliz/"><FontAwesomeIcon pull='left' className='iconlinkedin' icon={faLinkedin}/><span>Linkedin</span></a></button>
+      <button className='btnmenu git'><a target="_blank" href="https://github.com/stevenfeliz"><FontAwesomeIcon icon={faGithub} pull='left' className='icongithub'/><span>GitHub</span></a></button>
+      <button className='btnmenu projects'><Link to="/projects/" activeClassName="active"><FontAwesomeIcon icon={faToolbox} pull='left' className='iconprojects'/><span>Projects</span></Link></button>
+      <button className='btnmenu linkedin'><a target="_blank" href="https://www.linkedin.com/in/stevenfeliz/"><FontAwesomeIcon pull='left' className='iconlinkedin' icon={faLinkedin}/><span>Linkedin</span></a></button>
      
   </div>
  
