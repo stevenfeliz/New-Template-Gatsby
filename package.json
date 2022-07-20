@@ -1,9 +1,9 @@
 {
-  "name": "STEVEN FELIZ - PORTFOLIO",
+  "name": "steven-porfolio",
   "private": true,
-  "description": "Solid front-end knowledge of HTML, CSS, Javascript, React, Gatsby.",
+  "description": "Solid front-end knowledge of HTML, CSS, Javascript, React, Gatsby",
   "version": "0.1.0",
-  "author": "STEVEN FELIZ DEV",
+  "author": "STEVEN FELIZ <contact@stevenfeliz.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
