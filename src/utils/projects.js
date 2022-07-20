@@ -1,5 +1,5 @@
-import jonmirchaChalleng from "../images/projects/jonChalleng.png"
-import cssdegradado from "../images/projects/degradadoCss.png"
+import jonmirchaChalleng from "../images/proyecto/jonChalleng.png"
+import cssdegradado from "../images/proyecto/degradadoCss.png"
 
 export default [
   {
