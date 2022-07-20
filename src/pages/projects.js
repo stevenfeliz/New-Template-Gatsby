@@ -1,19 +1,19 @@
 import React from 'react'
-import BasicLayout from "../templates/BasicLayout"
-import "./BasicStyles.css"
-import Aboutme from '../components/Aboutme'
 
-export default function index() {
+import BasicLayout from "../templates/BasicLayout"
+import Projetcs from "../components/Proyectos/Projects"
+
+export default function projects(){
   return (
     <>
     <header className="container" id='container'>
-
     <BasicLayout/>
-    
     </header>
+
     <body>
-    <Aboutme/>
+
+    <Projetcs/>
     </body>
-    </>
+   </>
   )
 }

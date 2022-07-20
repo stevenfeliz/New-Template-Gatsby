@@ -1,0 +1,13 @@
+#container{
+    width: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(200,246,202,1) 35%, rgba(148,217,255,0.9948354341736695) 58%, rgba(255,255,255,1) 99%);
+}
+
+
+.container{
+    background: rgb(190,224,255);
+    background: linear-gradient(90deg, rgba(190,224,255,1) 1%, rgba(200,246,202,1) 35%, rgba(148,217,255,0.9948354341736695) 58%, rgba(190,224,255,0.38139005602240894) 99%);
+    margin-top: 10px;
+}
+

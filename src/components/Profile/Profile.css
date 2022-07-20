@@ -1,0 +1,37 @@
+#foto{
+   border-radius: 70px;
+   margin-top: 40px;
+   margin-bottom: 10px;
+   transform: scale(1);
+   filter:  brightness(125%)
+   
+   
+   
+}
+
+#foto:hover{
+   transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+
+.perfil{
+   background-image: url(../../images/background.jpg);
+   background-position: bottom;
+   background-size: contain;
+   width: 100%;
+   border-bottom: #efee solid;
+   border-radius: 10px;
+   margin-left: 1px;
+   filter: brightness(90%);
+   box-shadow: 5px 4px #c9c9c9;
+   margin-bottom: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+   .perfil{
+       
+      background-size: cover;
+   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */

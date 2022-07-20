@@ -1,0 +1,22 @@
+.container{
+    width: 90%;
+    font-size: 13px;
+    
+}
+.image {
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .image a button{
+    width: 80%;
+    text-transform: uppercase;
+  }
+  
+  .box{
+    width: 95%;
+   
+    
+  }

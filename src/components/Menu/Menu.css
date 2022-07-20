@@ -1,0 +1,156 @@
+
+.inicio{
+    grid-area: inicio;
+}
+.skills{
+    grid-area: skills;
+}
+.git{
+    grid-area: git;
+}
+.proyecto{
+    grid-area: proyecto;
+}
+
+.linkedin{
+    grid-area: linkedin;
+}
+
+.menu{
+   
+    margin: 0 auto;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "inicio inicio"
+    "skills proyecto"
+    "linkedin git";
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    .menu{
+        
+        grid-template-areas: 
+        "inicio inicio"
+        "skills proyecto"
+        "linkedin linkedin"
+        "git git";
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+    .menu{
+        width: 70%;
+        grid-template-areas: 
+        "inicio inicio"
+        "skills proyecto"
+        "git linkedin"
+       
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu{
+        width: 70%;
+        grid-template-areas: 
+        "inicio inicio"
+        "skills proyecto"
+        "git linkedin"
+       
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu{
+        width: 70%;
+        grid-template-areas: 
+        "inicio inicio"
+        "skills proyecto"
+        "git linkedin"
+       
+    }
+  
+}
+
+
+.btnmenu{
+    border: 2px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 5x;
+    cursor: pointer;
+    color: #45B5E2;
+    box-shadow: 2px 1px #7A7A7A;   
+    background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,250,250,1) 40%, rgba(255,252,252,0.9948354341736695) 58%, rgba(255,253,253,1) 100%);
+
+}
+
+.btnmenu:hover{
+    background-image: linear-gradient(90deg, rgba(245,255,245,1) 17%, rgba(141,223,249,1) 32%, rgba(218,218,218,0.9948354341736695) 58%, rgba(255,253,253,1) 100%);
+}
+/*ICONO LINKEDIN*/
+
+.linkedin span{
+    padding-right: 40px;
+    font-size: 20px;
+    
+}
+.iconlinkedin{
+   font-size: 30px;
+   color: #0288D1;
+  
+}
+
+/*ICONO GITHUB*/
+
+.git span{
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.icongithub{
+    font-size: 30px;
+    color: black;
+}
+
+/*ICONO INICIO*/
+.inicio span{
+    padding-right: 40px;
+    font-size: 20px;
+    
+}
+
+.iconinicio{
+    font-size: 30px;
+    color: #330000;
+}
+
+/*ICONO SKILLS*/
+
+.skills span{
+    padding-right: 40px;
+    font-size: 20px;
+    
+}
+
+.iconskills{
+    font-size: 30px;
+    color:#330000;
+}
+
+/*ICONO PROJECTS*/
+
+.projects span{
+    padding-right: 40px;
+    font-size: 20px;
+    
+}
+
+.iconprojects{
+    font-size: 30px;
+    color:#330000   ;
+}
+
+
