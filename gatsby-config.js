@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `STEVEN FELIZ - PORTFOLIO`,
-    description: `Solid front-end knowledge of HTML, CSS, Javascript, React, Gatsby`,
-    author: `@stevenfeliz`,
+    title: `Portfolio Web Frontend Developer`,
+    description: `developer frontend portfolio web - Steven Feliz`,
+    author: `stevenfeliz`,
     siteUrl: `https://stevenfeliz.com/`,
+    lang: "en",
 
   },
   plugins: [

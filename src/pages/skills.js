@@ -3,6 +3,7 @@ import "./BasicStyles.css"
 import BasicLayout from "../templates/BasicLayout"
 import Skills from '../components/Skills/Skills'
 import "../pages/BasicStyles.css"
+import Seo from '../components/Seo'
 
 
 
@@ -11,6 +12,7 @@ export default function skills() {
     <>
     <header className="container" id='container'>
     <BasicLayout/>
+    <Seo title="Skills"/>
     </header>
     
     <body>
